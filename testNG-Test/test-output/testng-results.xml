@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="19" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-04T12:11:41 WAT" name="Suite" finished-at="2023-02-04T12:11:41 WAT" duration-ms="78">
+    <groups>
+    </groups>
+    <test started-at="2023-02-04T12:11:41 WAT" name="Test" finished-at="2023-02-04T12:11:41 WAT" duration-ms="78">
+      <class name="test.Day1">
+        <test-method is-config="true" signature="demo2()[pri:0, instance:test.Day1@70be0a2b]" started-at="2023-02-04T12:11:41 WAT" name="demo2" finished-at="2023-02-04T12:11:41 WAT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method signature="demo1()[pri:0, instance:test.Day1@70be0a2b]" started-at="2023-02-04T12:11:41 WAT" name="demo1" finished-at="2023-02-04T12:11:41 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method signature="demo6(java.lang.String)[pri:0, instance:test.Day1@70be0a2b]" started-at="2023-02-04T12:11:41 WAT" name="demo6" finished-at="2023-02-04T12:11:41 WAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com/Practice.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo6 -->
+      </class> <!-- test.Day1 -->
+      <class name="test.Day2">
+        <test-method signature="demo2()[pri:0, instance:test.Day2@6156496]" started-at="2023-02-04T12:11:41 WAT" name="demo2" finished-at="2023-02-04T12:11:41 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method signature="demo4()[pri:0, instance:test.Day2@6156496]" started-at="2023-02-04T12:11:41 WAT" name="demo4" finished-at="2023-02-04T12:11:41 WAT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method signature="demo1()[pri:0, instance:test.Day2@6156496]" started-at="2023-02-04T12:11:41 WAT" name="demo1" finished-at="2023-02-04T12:11:41 WAT" depends-on-methods="test.Day2.demo4" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+      </class> <!-- test.Day2 -->
+      <class name="test.Day3">
+        <test-method signature="demo1()[pri:0, instance:test.Day3@3c153a1]" started-at="2023-02-04T12:11:41 WAT" name="demo1" finished-at="2023-02-04T12:11:41 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method signature="demo2()[pri:0, instance:test.Day3@3c153a1]" started-at="2023-02-04T12:11:41 WAT" name="demo2" finished-at="2023-02-04T12:11:41 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method signature="demo4()[pri:0, instance:test.Day3@3c153a1]" started-at="2023-02-04T12:11:41 WAT" name="demo4" finished-at="2023-02-04T12:11:41 WAT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+      </class> <!-- test.Day3 -->
+      <class name="test.Day4">
+        <test-method signature="demo1()[pri:0, instance:test.Day4@2aa5fe93]" started-at="2023-02-04T12:11:41 WAT" name="demo1" finished-at="2023-02-04T12:11:41 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method signature="demo2()[pri:0, instance:test.Day4@2aa5fe93]" started-at="2023-02-04T12:11:41 WAT" name="demo2" finished-at="2023-02-04T12:11:41 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+      </class> <!-- test.Day4 -->
+      <class name="test.DataProviderAnnotation">
+        <test-method signature="MobileSignIn(java.lang.String,java.lang.String)[pri:0, instance:test.DataProviderAnnotation@6646153]" started-at="2023-02-04T12:11:41 WAT" name="MobileSignIn" data-provider="getData" finished-at="2023-02-04T12:11:41 WAT" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignIn -->
+        <test-method signature="MobileSignIn(java.lang.String,java.lang.String)[pri:0, instance:test.DataProviderAnnotation@6646153]" started-at="2023-02-04T12:11:41 WAT" name="MobileSignIn" data-provider="getData" finished-at="2023-02-04T12:11:41 WAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignIn -->
+        <test-method signature="MobileSignIn(java.lang.String,java.lang.String)[pri:0, instance:test.DataProviderAnnotation@6646153]" started-at="2023-02-04T12:11:41 WAT" name="MobileSignIn" data-provider="getData" finished-at="2023-02-04T12:11:41 WAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignIn -->
+      </class> <!-- test.DataProviderAnnotation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
