@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test name="Submit Order Test(failed)" parallel="tests" preserve-order="true">
+    <groups>
+      <run>
+        <include name="purchase"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="greenmouse.tests.SubmitOrderTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="submitOrder" invocation-numbers="1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- greenmouse.tests.SubmitOrderTest -->
+    </classes>
+  </test> <!-- Submit Order Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
